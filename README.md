@@ -4,3 +4,6 @@ A procedural 3D terrain generator made using OpenGL and modern C++ that uses Bez
 The generated terrain surfaces can also be used in ray-tracing applications, or decomposed into extremely fine collision meshes for use in real-time collision detection systems.
 
 Video coming soon~
+
+
+![05](https://user-images.githubusercontent.com/75456828/101311954-d7231e80-380f-11eb-85a0-f7445ec45b31.png)
