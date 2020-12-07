@@ -1,5 +1,5 @@
 # terrain_generator
-A procedural 3D terrain generator made using OpenGL and modern C++ that generates smooth terrain with variable detail using Bezier Surfaces and Perlin Noise. The generated terrain supports dynamic tesselation during run-time via the tesselation shader.
+A procedural 3D terrain generator made with OpenGL and modern C++ that generates smooth terrain with variable detail using Bezier Surfaces and Perlin Noise. The generated terrain supports dynamic tesselation during run-time via the tesselation shader.
 
 Generated terrain surfaces can also be used in ray-tracing applications, or decomposed into extremely fine collision meshes for use in real-time collision detection systems.
 
