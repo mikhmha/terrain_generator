@@ -18,18 +18,18 @@
 //*****END SCENE OBJECTS******/
 
 //*********SCREEN RESOLUTION SETTINGS********
-constexpr int WINDOW_WIDTH = 800;
-constexpr int WINDOW_HEIGHT = 600;
-//#define RENDER_FULLSCREEN				// IF NOT DEFINED, WINDOW MODE
+constexpr int WINDOW_WIDTH = 2560;
+constexpr int WINDOW_HEIGHT = 1440;
+#define RENDER_FULLSCREEN				// IF NOT DEFINED, WINDOW MODE
 //***END SCREEN RESOLOUTION SETTINGS***
 
 //******TERRAIN GENERATION SETTINGS********
 float tess_factor = 5.0;				// INITIAL TESSELATION FACTOR. CAN BE INCREASED/DECREASED USING ARROW KEYS
-constexpr int n = 100;					// n * n bezier surfaces are used to construct the terrain, higher n = more detailed terrain
+constexpr int n = 400;					// n * n bezier surfaces are used to construct the terrain, higher n = more detailed terrain
 // PERLIN NOISE GENERATION FACTORS
 constexpr std::int32_t seed = 45;		// GENERATION SEED																							seed		[0 .. 2^32-1]
 constexpr std::int32_t octaves = 8;		//																											octaves		[1 .. 8 .. 16]
-constexpr float frequency = 1.5;		// HIGHER FREQUENCY = MORE FREQUENT and higher PEAKS														frequency	[0.1 .. 64.0]
+constexpr float frequency = 3.0;		// HIGHER FREQUENCY = MORE FREQUENT and higher PEAKS														frequency	[0.1 .. 64.0]
 // SCALE FACTORS
 auto s = 5000.0f;
 auto x_s = s * 1.0f;
