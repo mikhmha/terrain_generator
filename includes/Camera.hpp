@@ -54,7 +54,7 @@ public:
         updateCameraVectors();
     }
 
-    Camera(const glm::vec3& pos, const float speed) : Position(pos),  MovementSpeed(SPEED), Front(glm::vec3(0.0f, 0.0f, -1.0f)), WorldUp(glm::vec3(0.0f, 1.0f, 0.0f)), MouseSensitivity(SENSITIVITY), Zoom(ZOOM), Yaw(YAW), Pitch(PITCH)
+    Camera(const glm::vec3& pos, const float speed) : Position(pos),  MovementSpeed(speed), Front(glm::vec3(0.0f, 0.0f, -1.0f)), WorldUp(glm::vec3(0.0f, 1.0f, 0.0f)), MouseSensitivity(SENSITIVITY), Zoom(ZOOM), Yaw(YAW), Pitch(PITCH)
     {
         updateCameraVectors();
     }
