@@ -7,6 +7,7 @@ std::vector<CSurface> subdiv_CSurface(const CSurface& c, unsigned int w, unsigne
 	float l_div = 1.0f / (float)l;
 
 	std::vector<CSurface> s;
+	s.reserve(w * l);
 
 	for (auto i = 0; i < l; i++)
 	{

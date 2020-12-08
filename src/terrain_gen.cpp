@@ -18,6 +18,7 @@ BezierSurface gen_TerrainSurface(const CSurface& surface, const BezierSurface& m
 std::vector<BezierSurface> gen_TerrainSurfaces(const std::vector<CSurface>& l, const std::vector<BezierSurface>& masks)
 {
 	std::vector<BezierSurface> t_surfaces;
+	t_surfaces.reserve(l.size());
 	for (auto i = 0; i != l.size(); i++)
 		t_surfaces.emplace_back(gen_TerrainSurface(l[i], masks[i]));
 

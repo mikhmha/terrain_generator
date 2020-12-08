@@ -127,6 +127,8 @@ int main()
 	};
 
 	std::vector<TerrainMesh> tmesh;
+	tmesh.reserve(terrain_surfaces.size());
+
 	for (const auto& bsurface : terrain_surfaces)
 		tmesh.emplace_back(bsurface, terrain_textures);
 
