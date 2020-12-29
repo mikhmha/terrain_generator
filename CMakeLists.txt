@@ -74,7 +74,7 @@ if(MSVC_IDE)
 	endmacro()
 
 	# Run macro
-	GroupSources(src)
+	GroupSources(includes)
 endif()
 
 
